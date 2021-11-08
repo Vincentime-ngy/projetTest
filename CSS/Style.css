@@ -6,8 +6,8 @@
   text-decoration: none;
 }
 
-.body {
-  background-image: url(C:\Users\Vincent\Desktop\cours\web\projetTest\CSS\background.jpg);
+body {
+  background-image: url(background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: sans-serif;
@@ -22,20 +22,35 @@
 }
 
 .navbar-item{
-  margin-right: 2rem;
+  margin-right: 1rem;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 1000;
 }
 
 .navbar-item a{
   color: black;
   letter-spacing: 1.2px;
-  margin-right: 6px;
   border-left: 3px solid black;
   
 }
 
-.navbar-item1{
-  margin-right: 300px;
-  
+.navbar-item:first-child{
+  margin-right: auto;
+    margin-left: 2rem;
+}
+
+.footer{
+  margin-top: 536px;
+  background-color: black;
+  text-align: center;
+  font-family: sans-serif;
+  color:white;
+}
+
+.fond{
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: white;
 }
